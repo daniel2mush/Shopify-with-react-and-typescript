@@ -6,22 +6,27 @@ import { getRadioValue } from "../../../../Redux/home/HomeSlice";
 const Price = () => {
   const priceValue: InputCagetoryType[] = [
     {
-      name: "category",
+      name: "price",
+      label: "All",
+      value: "",
+    },
+    {
+      name: "price",
       label: "0 - $50",
       value: "50",
     },
     {
-      name: "category",
+      name: "price",
       label: "$50 - $100",
       value: "100",
     },
     {
-      name: "category",
+      name: "price",
       label: "$100 - $150",
       value: "150",
     },
     {
-      name: "category",
+      name: "price",
       label: "$200 plus",
       value: "200",
     },
